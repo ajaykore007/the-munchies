@@ -1,0 +1,180 @@
+/* Header style */
+
+.container {
+	max-width: 1340px
+}
+
+header {
+	padding: 4px 0;
+	background: #080a0b;
+	height: 50px;
+	border-bottom: 1px solid #f6d53e;
+}
+
+h1 {
+	display: inline-block;
+	margin-right: 110px;
+}
+
+.navbar ul li{
+	display: inline-block;
+    margin-right: 33px;
+}
+
+.navbar ul li a{
+	color: #fff;
+}
+
+.navbar ul li a:hover{
+	color: #f6d53e;	
+}
+
+.navbar{
+	margin-top: 10px;
+	float: right;
+}
+
+.logo-wrap {
+	display: inline-block;
+}
+
+h1 a,.btm-logo {
+	font-family: 'BerkShire Swash';
+	font-size: 30px;
+	color: #fff;
+}
+
+
+.btm-logo {
+	margin-bottom: 15px;	
+	width: 200px;
+	height: 33px;
+	display: inline-block;
+}
+
+
+/* Header style end */
+
+
+/* Footer style */
+
+footer {
+	background: #000;
+	width: 100%;
+	padding: 30px 0;
+	box-sizing: border-box;
+	border-top: 1px solid #f6d53e;
+}
+
+.footer-desc,
+.copyright {
+	color: #fff;
+	font-size: 13px;
+	line-height: 17px;
+	margin-bottom: 15px;
+}
+
+.footer-desc {
+	width: 90%;
+}
+
+.read-more {
+	color: #f6d53e;
+	margin-left: 5px;
+}
+
+.read-more:hover {
+	text-decoration: underline;
+}
+
+.copyright {
+	margin-bottom: 0;
+}
+
+.link-title {
+	font-size: 15px;
+	font-weight: 600;
+	color: #FFF;
+	line-height: 34px;
+}
+
+/* Footer style end */
+
+
+
+/* slick slider end */
+
+
+/* Product section */
+body.category-pasta{background: #000;}
+.f1{
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h4{
+	text-align: center;
+}
+
+.top-heading {
+	background: #ff0000;
+    width: 200px;
+    height: 74px;
+    line-height: 74px;
+    margin: 25px auto;
+}
+
+.menu-wrp{background: #fff;margin-bottom: 35px}
+
+.menu-wrp ul li{
+	border-top: 1px solid #ccc;
+    height: 170px;
+    position: relative;
+    padding: 13px 28px;
+}
+
+.menu-item,.menu-item-desc{
+	color: #000;
+    font-size: 22px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.menu-item-desc{
+	color: #666;
+    text-transform: capitalize;
+}
+
+.menu-item-price{
+	display: block;
+    position: absolute;
+    height: 50px;
+    width: 110px;
+    line-height: 48px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #000;
+    background: #ccc;
+    font-weight: bold;
+}
+
+.order-now{
+	height: 50px;
+    width: 110px;
+    line-height: 50px;
+	color: #000;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #000;
+    background: #ccc;
+    font-weight: bold;
+    display: inline-block;
+}
